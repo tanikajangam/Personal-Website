@@ -19,7 +19,13 @@ export default function Home() {
       </nav>
 
       <div className="contact">
-        
+        <img src="/github.svg">
+        </img>
+        <img src="/gmail.svg">
+        </img>
+        <img src="/linkedin.svg">
+        </img>
+
       </div>
     </div>
 
@@ -33,11 +39,63 @@ export default function Home() {
         Lorem ipsum dolor sit amet, debet accommodare disputationi an has, usu stet eirmod no, pri an iriure epicuri interpretaris. Sit ne feugiat dissentiunt. Falli iriure duo ad, ea sed harum movet facilisi, assum harum congue an cum. Alii vidit zril at vel, ne error adipisci eam, velit paulo sit te.
         Per cu electram abhorreant efficiendi, cu convenire mediocrem splendide qui. Ea homero maiestatis nam, vidit delenit et ius. Vim in altera possim. An timeam praesent consectetuer eam, no brute menandri disputationi ius. Recusabo sadipscing nam eu.
       </p>
-      <div>
 
+
+      <div className="resume">
+        <div className="resume-inner">
+          <div>Date</div>
+          <div>
+            Title
+            Descriptions
+            Tech stacks used
+          </div>
+        </div>
+
+        <Link to="/">View Full Resume</Link>
+      </div>
+      <br>
+      </br>
+      <div className="projects">
+        <div className="projects-inner">
+          <div>Image of project</div>
+          <div>
+            Plantify
+            Description
+            Tech stacks used
+          </div>
+        </div>
+        <div className="projects-inner">
+          <div>Image of project</div>
+          <div>
+            HabitTracker
+            Description
+            Tech stacks used
+          </div>
+        </div>
+        <div className="projects-inner">
+          <div>Image of project</div>
+          <div>
+            KodaHacks Website
+            Description
+            Tech stacks used
+          </div>
+        </div>
+
+        <div className="projects-inner">
+          <div>Notifly</div>
+          <div>
+            Project Title
+            Description
+            Tech stacks used
+          </div>
+        </div>
+        <Link to="/">View Full Project Archive</Link>
       </div>
 
     </div>
 
+
+
   </div>
+
 }

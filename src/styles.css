@@ -60,3 +60,13 @@
 .links a {
     text-decoration: none;
 }
+
+.contact {
+    position: fixed;
+    bottom: 13%;
+}
+
+.contact img {
+    width: 30px;
+    margin: 5px;
+}
