@@ -45,9 +45,12 @@ export default function Home() {
         <div className="resume-inner">
           <div>Date</div>
           <div>
-            Title
-            Descriptions
-            Tech stacks used
+            Notifly
+            Developed application that provides easy speech-to-text notetaking and organization for students
+            Built speech recognition system using SpeechRecognition API
+            Created organized backend with MongoDB & ExpressJS
+            Won 2nd Place @ ThetaHacks out of 400+ participantsDeveloped application that provides easy speech-to-text notetaking and organization for students Built speech recognition system using SpeechRecognition API Created organized backend with MongoDB & ExpressJS Won 2nd Place @ ThetaHacks out of 400+ participants
+            Skills: MongoDB · Express.js · Speech Recognition
           </div>
         </div>
 
@@ -66,17 +69,18 @@ export default function Home() {
         </div>
         <div className="projects-inner">
           <div>Image of project</div>
-          <div>
-            HabitTracker
-            Description
-            Tech stacks used
+          <div>Records and detects scratching, biting nails, and other habits exhibited by users to decrease stress symptoms
+            Uses Tensorflow Object Detection API to create bounding box predictions to detect hand movements
+            Developed an organized MERN backend system to track user habits over time
+            StarHacks submissionRecords and detects scratching, biting nails, and other habits exhibited by users to decrease stress symptoms Uses Tensorflow Object Detection API to create bounding box predictions to detect hand movements Developed an organized MERN backend system to track user habits over time StarHacks submission
+            Skills: TensorFlow · Object Detection · MERN Stack
           </div>
         </div>
         <div className="projects-inner">
           <div>Image of project</div>
           <div>
             KodaHacks Website
-            Description
+            https://penguinwebsite.netlify.app
             Tech stacks used
           </div>
         </div>
