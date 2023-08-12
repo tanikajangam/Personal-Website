@@ -9,4 +9,9 @@
  */
 module.exports = {
   plugins: [],
+  siteMetadata: {
+    title: 'Tanika Jangam',
+    description: 'Project Portfolio'
+  }
 }
+ 

@@ -1,7 +1,8 @@
 import * as React from "react"
 import "../styles.css"
-import { Link } from "gatsby"
-export default function Home() {
+import { graphql, Link } from "gatsby"
+export default function Home({ data }) {
+  console.log(data);
   return <div className="Home">
 
     <div className="landing">
@@ -103,3 +104,12 @@ export default function Home() {
   </div>
 
 }
+export const query = graphql`
+query SiteInfo {
+  site {
+    siteMetadata {
+      title
+      description
+    }
+  }
+}`
